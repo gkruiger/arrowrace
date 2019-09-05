@@ -17,7 +17,7 @@ Make sure there is a possible solution, otherwise the algoritm will go on endles
 ## Tweaking the algoritm
 If you're familiar (or want to become familiar) with the parameters you can adjust in Q-leaning, find the following lines of code in the source:
 
-// Default settings/track
+```
 track = new Track(
     'track1',   // Trackname
     100,        // Times with a finish before it stops 
@@ -26,6 +26,7 @@ track = new Track(
     1,          // Learning rate
     0.9         // Discout
 );
+```
 
 If you want to know more about epsilon, learning rate and/or discount: Google is your friend while playing around with it.
 
@@ -34,6 +35,3 @@ If you want to play around with the rewards, these can be easily found in the co
 - Wrongful finish: -1000 (like one step forward and two steps back) 
 - Rightful finish: +1000;
 - Otherwise valid move: number of steps closer to the finish * 10;
-
-### Thanks to
-https://www.freepik.com/free-vector/pirate-icons-set-flat_3976520.htm#index=1
