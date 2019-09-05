@@ -28,7 +28,7 @@ track = new Track(
 );
 ```
 
-If you want to know more about epsilon, learning rate and/or discount: Google is your friend while playing around with it.
+If you want to know more about epsilon, learning rate and/or discount: I suggest you play & google around.
 
 If you want to play around with the rewards, these can be easily found in the code. Current settings:
 - Crash: -100
