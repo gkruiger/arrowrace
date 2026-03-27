@@ -1,9 +1,11 @@
-# arrowrace
-Further exploring the concept of Reinforcement Learning with the Q-Learning algorithm in my blog: https://www.ontdeksels.nl/ontdeksel-14-de-pijlenrace-naar-de-grens/ (Dutch).
+# Arrowrace
+Further exploring the concept of Reinforcement Learning with the Q-Learning algorithm.
 
 ![Demo screenshot](https://github.com/gkruiger/arrowrace/blob/master/screenshot.png "Demo screenshot")
 
 This is a small game you might know from high school. It's a 'race' which you can do with your friends with only a piece of graph paper and a pencil. This time however, the algoritm will  search for the best route with the Q-learning algorithm.
+
+Live demo: https://gkruiger.github.io/arrowrace/
 
 ## Your own track
 You can upload your own track. Please make sure your track adheres to the following:
